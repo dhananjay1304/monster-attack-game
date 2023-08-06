@@ -17,8 +17,13 @@ if(isNaN(chosenMaxLife) || chosenMaxLife <= 0){
 let currentMonsterHealth = chosenMaxLife;
 let currentPlayerHealth = chosenMaxLife;
 let hasBonusLife = true;
+let battleLog = [];
 
 adjustHealthBars(chosenMaxLife);
+
+function WriteToLog() {
+  
+}
 
 function reset() {
   let currentMonsterHealth = chosenMaxLife;
