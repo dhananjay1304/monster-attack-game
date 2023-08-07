@@ -220,8 +220,17 @@ function printLogHandler() {
     i--;
     console.log(i);
   }
-  console.log(battlelog);
-}*/
+  */
+ /*for(let i = 0; i < battlelog.length; i++ ){
+  console.log(battlelog[i]);
+ }*/
+ i = 0;
+ for(const logEntry of battlelog) {
+  console.log(logEntry);
+  console.log(i);
+  i++;
+ }
+}
 
 attackBtn.addEventListener("click", attackHandler);
 strongAttackBtn.addEventListener("click", strongAttackHandler);
